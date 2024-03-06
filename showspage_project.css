@@ -1,0 +1,153 @@
+.background{
+    background-size: cover;
+    background-color: rgb(27, 25, 25);
+    /* width: 50%; */
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+  }
+.logo{
+    width: 150px;
+  cursor: pointer;
+}
+.log{
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 40px;
+} 
+.buttons{
+    text-align: left;
+}
+.but{
+    border-radius: 50px;
+    padding: 12px 10px;
+    width: 150px;
+    background: transparent;
+    color: white;
+    border-color: aqua;
+    display: inline-flex;
+    justify-content: center;
+    margin-left:35px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    
+}
+.createimg{
+    text-align: center;
+    /* border: 2px solid rgb(235, 223, 223); */
+    box-shadow: 10px 10px 30px blueviolet;
+}
+.tp{
+    margin-top: -70px;
+}
+.play{
+    width: 150px;
+    padding: 7px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+.plays{
+    width: 150px;
+    padding: 7px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-left: 20px;
+    background-color: rgb(59, 58, 58);
+}
+.head{
+    color: aliceblue;
+    margin-top: 20px;
+}
+.cr{
+    height: 10%px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+/*........... movies............. */
+.card-heading{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px;
+    margin: 20px;
+    font-family: sans-serif;
+}
+.card{
+    height: 100px;
+    width: 150px;
+    border-radius: 50px;
+    margin-left: 40px;
+}
+.img1{
+    height: 100px;
+    width: 150px; 
+}
+
+.crdv{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+div.srcollmenu{
+    background-color: rgb(17, 17, 17);
+    white-space: nowrap;
+    overflow: auto;
+}
+.srcollmenu::-webkit-scrollbar{
+    display: none;
+}
+
+.imgg22{
+    height: 300px;
+    width: 250px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+div.scrollmenu a{
+    display: inline-block;
+    color: aliceblue;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+.bottomsection{
+    height: 5%;
+    width: 100%;
+    background-color: rgb(22, 22, 22);
+    padding: 5px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+.ihead{
+    color: white;
+    font-size: 30px;
+}
+
+.ldiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    text-align: center;
+}
+.ovr{
+    overflow: scroll;
+    width: 100%;
+    height: 600px;
+    overflow-x: hidden;
+}
+
+.kk::-webkit-scrollbar{
+    display: none;
+}
